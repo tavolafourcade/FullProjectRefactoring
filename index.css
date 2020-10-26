@@ -150,10 +150,12 @@ p {
 a.cta-btn {
   font-size: 0.9em;
   padding: 0.2em 0.4em;
+  border-radius: 0.2em;
 }
 
 nav ul li a {
   font-size: 1.2em;
+  padding: 0.8em 0.4em;
 }
 
 h3 {
@@ -162,4 +164,74 @@ h3 {
 
 nav {
   text-align: left;
+}
+
+.panel {
+  padding: 0.5em 1em;
+  margin-bottom: 2em;
+}
+
+.inner-wrapper {
+  padding: 1em;
+}
+
+@media (min-width: 420px) {
+  body {
+    padding: 1em;
+    text-align: left;
+  }
+
+  ul.data {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.data li {
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 550px) {
+  ul.data {
+    justify-content: center;
+  }
+
+  .panel ul.data li {
+    flex: 0 0 33%;
+  }
+
+  .panel ul.data li p {
+    margin-bottom: 0;
+  }
+
+  nav {
+    width: 40%;
+  }
+}
+
+@media (min-width: 720px) {
+  body {
+    padding: 1.5em;
+    text-align: left;
+  }
+
+  nav {
+    width: 30%;
+  }
+
+  .columns {
+    display: flex;
+  }
+
+  .col {
+    flex: 0 0 48%;
+  }
+
+  .secondary {
+    margin-left: 3em;
+  }
+
+  ul.secondary {
+    margin-top: 0;
+  }
 }
