@@ -130,6 +130,36 @@ ul.secondary li p {
   font-size: 1.3em;
 }
 
-main {
-  border: 1px solid white;
+body {
+  background: #303a52;
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  background: #2c354a;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+a.cta-btn {
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+}
+
+nav ul li a {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: unset;
+}
+
+nav {
+  text-align: left;
 }
